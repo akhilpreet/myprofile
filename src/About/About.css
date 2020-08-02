@@ -1,0 +1,86 @@
+.content{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    z-index: 11;
+}
+
+.content p{
+    font-size: 1.35em;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    line-height: 2em;
+    margin: 0px;
+}
+
+.content div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    z-index: 111111;
+}
+
+.lowerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lowerContent>p{
+    font-size: 2.1em;
+    flex: 0.9;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.lowerContent>p>span{
+    font-size: 5em;
+    font-weight: lighter;
+    opacity: 0.4;
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+}
+.lowerContent>div{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon{
+    background: rgb(6 55 50 / 55%);
+    padding: 4%;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex: 1;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.icon>svg{
+    font-size: 8em;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.icon>p{
+    font-size: 2em;
+    color: rgb(49, 45, 45);
+    font-weight: bold;
+    text-align: center;
+}
+
+.icon:hover{
+    background-color: white;
+}
+

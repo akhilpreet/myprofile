@@ -1,0 +1,19 @@
+.overlay{
+    width: 75%;
+    position: absolute;
+    height: 95%;
+    background: #424242;
+    opacity: 0.3;
+    z-index: 1;
+    left: 24%;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.screen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

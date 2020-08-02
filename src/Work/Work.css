@@ -1,0 +1,17 @@
+.projectWrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.projectContainer{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 1.1em;
+    flex-wrap: wrap;
+}

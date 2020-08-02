@@ -1,0 +1,38 @@
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footerContainer>p{
+    opacity: 0.7;
+    font-size: 13px;
+    width: 50%;
+}
+
+.footerRight{
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3.5em;
+    border-left: 1px solid #aaaaaa;
+    margin-right: 15%;
+    transition: color 5s ease;
+}
+
+.footerRight>a{
+    color: #333333;;
+    display: flex;
+}
+
+.footerRight>a:hover{
+    color: #aaa;
+}

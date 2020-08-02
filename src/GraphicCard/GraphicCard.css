@@ -1,0 +1,32 @@
+.graphicContainer{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    background-color: #008080;
+    width: 98%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #17323f;
+}
+
+.logo>h1{
+    margin: 0;
+    font-size: 10em;
+    font-weight: bold;
+    letter-spacing: 20px;
+    font-family: Poppins;
+    line-height: 1em;
+}
+
+.logo>h1>span{
+    color: white;
+}

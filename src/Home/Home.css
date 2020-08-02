@@ -1,0 +1,29 @@
+.right{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.name{
+    height: 60%;
+    width: 100%;
+    font-size: 2.7em;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background: #66b2b2;
+    flex-direction: column;
+    padding: 1em;
+    margin-left: 0.5em;
+    color: #616161;;
+}
+
+.name h1:first-child{
+    color: white;
+}
+
+.name>h1{
+    margin: 0px;
+}

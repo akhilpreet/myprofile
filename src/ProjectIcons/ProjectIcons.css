@@ -1,0 +1,69 @@
+.project{
+    width: 23%;
+    height: 100%;
+    background: #ccc;
+    margin: 1%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    z-index: 111;
+    cursor: pointer;    
+}
+
+.project>a{
+    display: none;
+}
+
+.screenOpen{
+    width: 80%;
+    height: 85%;
+    position: absolute;
+    z-index: 11111;
+    transition: all 0.5s ease;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    opacity: 1!important;
+    background-size: cover;
+    background-position: center;
+}
+
+.screenOpen>a{
+    display: initial;
+    padding: 10px;
+    background: white;
+    position: absolute;
+    z-index: 99999;
+    text-decoration: none;
+    color:black;
+}
+
+.screenOpen>div{
+    opacity: 0.4;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.screenOpen:nth-child(1), .project:nth-child(1){
+    background-image: url(../img/darkstudio.jpg);
+}
+
+.screenOpen:nth-child(2), .project:nth-child(2){
+    background-image: url(../img/akhil.jpg);
+}
+
+.screenOpen:nth-child(3), .project:nth-child(3){
+    background-image: url(../img/matrix.jpg);
+}
+
+.screenOpen:nth-child(4), .project:nth-child(4){
+    background-image: url(../img/aurainterior.png);
+}
+

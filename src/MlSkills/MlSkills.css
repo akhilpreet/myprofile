@@ -1,0 +1,28 @@
+.skicon{
+    background: rgb(6 55 50 / 72%);
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex: 1 1;
+    transition: all 0.5s ease;
+    z-index: 111111;
+}
+
+.skicon>p{
+    font-size: 25px;
+    color: rgb(49, 45, 45);
+    font-weight: bold;
+    text-align: center;
+    z-index: 111111111;
+}
+
+.skicon>svg{
+    font-size: 90px;
+    opacity: 0.3;
+}
+
+.skicon:hover{
+    background-color:white;
+}

@@ -1,0 +1,33 @@
+.NavigationContainer{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 10vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: white;
+    opacity: 0.5;
+}
+
+.NavigationContainer ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0px;
+    margin-right: 5em;
+}
+
+.NavigationContainer li{
+    padding: 0em 5em 0.5em 0em;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.NavigationContainer li:hover{
+    list-style-type: square;
+}

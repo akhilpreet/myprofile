@@ -1,0 +1,24 @@
+body{
+    background: #006666;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    letter-spacing: 3px;
+    font-family: Raleway, sans-serif;
+}
+
+
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway'), url('./fonts/raleway/Raleway-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Poppins Bold'), url('./fonts/poppins/Poppins-Bold.woff') format('woff');
+}
